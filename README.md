@@ -112,4 +112,4 @@ Key parameters in the `Config` class:
 - GPU with 8GB+ VRAM recommended
 - Training time varies by hardware and dataset size
 - Checkpoints are saved only when validation PSNR improves
-
+- **Dataset Note:** The Harappan seals image dataset used in this study is not publicly distributed.
