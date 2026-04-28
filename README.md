@@ -1,6 +1,6 @@
-# Harappan Seal Inpainting - Diffusion-Based Image Restoration
+# Harappan Seal Restoration - Diffusion-Based Image Restoration
 
-This project implements a comprehensive framework for image inpainting using multiple deep learning architectures. It includes 7 state-of-the-art models trained on both grayscale and RGB images with polynomial fracture mask generation to simulate real damage patterns.
+This project implements a comprehensive framework for image restoration using multiple deep learning architectures. It includes 7 state-of-the-art models trained on both grayscale and RGB images with polynomial fracture mask generation to simulate real damage patterns.
 
 ## Features
 
@@ -85,7 +85,7 @@ Key parameters in the `Config` class:
 | ------------------- | -------------------------------------- | --------------------------- |
 | Baseline U-Net      | Symmetric encoder-decoder              | Simple and efficient        |
 | Deep Residual U-Net | U-Net + Residual blocks + SE attention | Strong feature learning     |
-| Context Encoder     | Large-kernel encoder-decoder           | Competitive inpainting      |
+| Context Encoder     | Large-kernel encoder-decoder           | Competitive restoration      |
 | Pix2Pix Generator   | U-Net generator + Patch discriminator  | Adversarial training        |
 | RFA-Net             | Multi-dilation + Feature fusion        | Receptive field aggregation |
 | PConv U-Net         | Partial convolutions                   | Mask-aware convolutions     |
@@ -113,10 +113,3 @@ Key parameters in the `Config` class:
 - Training time varies by hardware and dataset size
 - Checkpoints are saved only when validation PSNR improves
 
-## License
-
-Feel free to use and modify for your research
-
-## Contact
-
-For questions or issues, please open an issue on GitHub
