@@ -112,4 +112,4 @@ Key parameters in the `Config` class:
 - GPU with 8GB+ VRAM recommended
 - Training time varies by hardware and dataset size
 - Checkpoints are saved only when validation PSNR improves
-- **Dataset Note:** The Harappan seals image dataset used in this study is not publicly distributed.
+- **Dataset Note:** The Harappan seals image dataset used to train these models is derived from photographs published in the Corpus of Indus Seals and Inscriptions (Volumes 1 and 2). The copyright for these photographs is strictly held by the publisher (Academia Scientiarum Fennica) and the respective national museums that own the original artifacts. Because we do not own the rights to these images, we do not have the legal authority to distribute, host, or share the dataset publicly.
